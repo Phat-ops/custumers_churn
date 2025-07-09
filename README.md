@@ -18,7 +18,7 @@ This project focuses on analyzing customer data from a telecom company to build 
 
 ## 🖼️ Model Performance & Evaluation
 
-### 📌 Model Performance
+### 📌 Actual vs Predicted Density Plot
 
 ![Model Performance](https://github.com/Phat-ops/custumers_churn/blob/main/image/Screenshot%202025-07-09%20085959.png?raw=true)
 
