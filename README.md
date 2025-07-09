@@ -16,6 +16,20 @@ This project focuses on analyzing customer data from a telecom company to build 
 - **scikit-learn** for building and evaluating machine learning models  
 - **Jupyter Notebook** for analysis and documentation
 
+## 🖼️ Model Performance & Evaluation
+
+### 📌 Model Performance
+
+![Model Performance](image/Screenshot 2025-07-09 085959.png)
+
+*Figure: ROC curve and confusion matrix showing model performance*
+
+### 📝 Classification Report
+
+![Classification Report](image/Screenshot 2025-07-09 090027.png)
+
+*Figure: Detailed classification metrics including precision, recall, and F1-score*
+
 ## ✨ Key Insights
 - Customers with shorter tenure and month-to-month contracts are more likely to churn.
 - Higher monthly charges correlate with higher churn risk, while customers with higher total charges tend to be more loyal.
