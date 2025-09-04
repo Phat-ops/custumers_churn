@@ -1,44 +1,18 @@
-# 📊 Customer Churn Analysis & Insights for a Telecom Company
+# Customer Churn Analysis & Insights for a Telecom Company
 
-## 📌 Project Overview
-This project focuses on analyzing customer data from a telecom company to build a predictive model that identifies customers at risk of churn. By understanding key factors driving churn, the business can proactively take actions to improve customer retention and satisfaction.
+## Mô tả
+Dự án phân tích và dự đoán sự rời bỏ của khách hàng trong lĩnh vực viễn thông, mục đích cung cấp các yếu tố ảnh hưởng đến việc từ bỏ dịch vụ và đưa ra giải pháp cải thiệt cũng như dự đoán nhằm đưa ra biện pháp phù hợp để giải quyết
 
-## 🎯 Objectives
-- Analyze the relationship between customer demographics, services used, contract types, and churn behavior.
-- Identify key features that influence churn.
-- Develop and evaluate a machine learning model to predict churn.
-- Provide actionable insights to help the company reduce churn.
-
-## 🛠️ Tools & Technologies
+## Tool
 - **Python**  
-- **pandas**, **NumPy** for data manipulation  
-- **matplotlib**, **seaborn** for visualization  
-- **scikit-learn** for building and evaluating machine learning models  
-- **Jupyter Notebook** for analysis and documentation
+- **pandas**, **NumPy**,**matplotlib**, **seaborn**, **scikit-learn**
 
-## 🖼️ Model Performance & Evaluation
 
-### 📌 Actual vs Predicted Density Plot
+###  Classification Report
 
-![Model Performance](https://github.com/Phat-ops/custumers_churn/blob/main/image/Screenshot%202025-07-09%20085959.png?raw=true)
+![Classification Report](https://github.com/user-attachments/assets/d1b9a3c5-7f30-4679-896f-ee16b56d434b")
 
-*Figure: ROC curve and confusion matrix showing model performance*
 
-### 📝 Classification Report
+### Hiệu suất
 
-![Classification Report](https://github.com/Phat-ops/custumers_churn/blob/main/image/Screenshot%202025-07-09%20090027.png?raw=true)
-
-*Figure: Detailed classification metrics including precision, recall, and F1-score*
-
-## ✨ Key Insights
-- Customers with shorter tenure and month-to-month contracts are more likely to churn.
-- Higher monthly charges correlate with higher churn risk, while customers with higher total charges tend to be more loyal.
-- Services such as multiple lines, lack of online backup or device protection increase churn risk.
-- Demographic factors like being single or having no dependents are also associated with higher churn.
-
-## ✅ Conclusion
-By targeting customer segments identified as high-risk and offering tailored incentives or service improvements, the company can effectively reduce churn and enhance customer loyalty.
-
-## 🙏 Acknowledgement
-Thank you for taking the time to view this project!  
-Your feedback and suggestions are highly appreciated to make this work even better.
+![Model Performance](https://github.com/user-attachments/assets/a317a9c1-be7d-4476-8028-d2149158e702)
