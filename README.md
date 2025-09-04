@@ -10,7 +10,7 @@ Dự án phân tích và dự đoán sự rời bỏ của khách hàng trong l�
 
 ###  Classification Report
 
-![Classification Report](https://github.com/user-attachments/assets/d1b9a3c5-7f30-4679-896f-ee16b56d434b")
+![Classification Report](https://github.com/user-attachments/assets/d1b9a3c5-7f30-4679-896f-ee16b56d434b)
 
 
 ### Hiệu suất
