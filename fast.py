@@ -1,7 +1,6 @@
 import pickle
 import pandas as pd
 from fastapi import FastAPI, Body
-from sklearn.ensemble import RandomForestClassifier
 from typing import List
 
 app = FastAPI()
