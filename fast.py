@@ -1,7 +1,8 @@
 import pickle
 import pandas as pd
-from fastapi import FastAPI
+from fastapi import FastAPI, Body
 from sklearn.ensemble import RandomForestClassifier
+from typing import List
 
 app = FastAPI()
 with open("model.pkl", "rb") as f:
@@ -10,12 +11,12 @@ cols=['gender','SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService
 
 @app.get('/')
 def extract():
-    return "welcome to my project"
+    return {'meages':"welcome to my project"}
 
 @app.post('/predict')
-def model(info:list):
+def model(info: List = Body(...)):
     clas = ['no_churn', 'churn']
-    test_df = pd.DataFrame(info, columns=cols)
+    test_df = pd.DataFrame([info], columns=cols)
     result = loaded_model.predict(test_df)
-    return clas[result]
+    return {"prediction": clas[result[0]]}
 #python -m uvicorn fast:app --reload
